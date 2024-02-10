@@ -1,0 +1,46 @@
+nav {
+    background-color: black;
+    z-index: 1;
+}
+.active-link-poizon {
+    border-bottom: solid 5px #06DADD;
+}
+.nav-link {
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 7px;
+}
+.nav-phone {
+    display: none;
+}
+.nav-main-container {
+    height: 90px;
+    width: 100%;
+    position: absolute;
+}
+@media (max-width: 991px) {
+    .nav-main-container{
+        display: none;
+    }
+    .nav-phone {
+        display: block;
+    }
+}
+.nav-main {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 90px;
+    justify-content: space-between;
+}
+.nav-link-main {
+    text-decoration: none;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    line-height: 90px;
+}
+.logo-main {
+    margin-top: 20px;
+}

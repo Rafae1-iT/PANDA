@@ -1,0 +1,248 @@
+.poizon-main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/poizon/poizon-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.poizon-main-content {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.65);
+}
+.pmc {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.name-page {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 64px;
+    letter-spacing: 100px;
+    color: #06DADD;
+}
+
+.tagline {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    padding-top: 50px;
+    font-size: 40px;
+    letter-spacing: 20px;
+    color: #fff;
+}
+
+.button-order {
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    border: solid 5px #06DADD;
+    text-align: center;
+}
+
+.button-order button { 
+    background: none;
+    height: 40px;
+	color: white;
+	border: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+
+.dnbr {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    .name-page {
+        letter-spacing: 80px;
+    }
+    .tagline {
+        letter-spacing: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .name-page {
+        letter-spacing: 80px;
+        padding-left: 50px;
+    }
+    .dnbr {
+        display: block;
+    }
+    .tagline {
+        letter-spacing: 5px;
+    }
+}
+
+@media (max-width: 780px) {
+    .name-page {
+        letter-spacing: 50px;
+        padding-left: 50px;
+    }
+    .dnbr {
+        display: block;
+    }
+    .tagline {
+        letter-spacing: 5px;
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 620px) {
+    .name-page {
+        font-size: 54px;
+        letter-spacing: 30px;
+        padding-left: 40px;
+    }
+    .dnbr {
+        display: block;
+    }
+    .tagline {
+        letter-spacing: 10px;
+        font-size: 30px;
+    }
+
+    .button-order {
+        width: 250px;
+        height: 50px;
+    }
+    
+    .button-order button { 
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .tagline {
+        letter-spacing: 10px;
+        font-size: 24px;
+    }
+    .name-page {
+        font-size: 54px;
+        letter-spacing: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 430px) {
+    .tagline {
+        letter-spacing: 10px;
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+    .name-page {
+        font-size: 40px;
+        letter-spacing: 30px;
+        padding-left: 30px;
+    }
+
+    .button-order {
+        width: 200px;
+        height: 50px;
+    }
+    
+    .button-order button { 
+        font-size: 16px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 370px) {
+    .tagline {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .name-page {
+        font-size: 40px;
+        letter-spacing: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 300px) {
+    .tagline {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .name-page {
+        font-size: 40px;
+        letter-spacing: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-height: 750px) {
+    .pmc {
+        top: 60%;
+    }
+}
+
+@media (max-height: 550px) {
+    .button-order {
+        margin-top: 50px;
+    }
+}
+
+@media (max-height: 450px) {
+    .name-page {
+        font-size: 50px;
+        letter-spacing: 50px;
+        padding-left: 15px;
+    }
+    .tagline {
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
+    .button-order button { 
+        font-size: 18px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-height: 360px) {
+    .pmc {
+        top: 65%;
+    }
+    .name-page {
+        font-size: 50px;
+        letter-spacing: 50px;
+        padding-left: 15px;
+
+    }
+    .tagline {
+        padding-top: 20px;
+    }
+    .button-order { 
+        margin-top: 30px;;
+    }
+}
+
+@media (max-height: 330px) {
+    .name-page {
+        font-size: 40px;
+
+    }
+    .tagline {
+        font-size: 20px;
+    }
+    .button-order { 
+        margin-top: 20px;
+        width: 200px;
+    }
+    .button-order button { 
+        font-size: 16px;
+    }
+}
+
+@media (max-height: 450px) and (max-width: 1000px) {
+    .dnbr {
+        display: none;
+    }
+}
