@@ -1,0 +1,139 @@
+.poizonVideo {
+    width: 100%;
+    height: 100vh;
+}
+.examinationBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.intro {
+    height: 100%;
+    position: relative;
+}
+.intro:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.examination {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding-top: 70px;
+    position: relative;
+    z-index: 3;
+}
+.examinationText {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.examinationVideo {
+    padding-top: 80px;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+}
+
+.examinationMedia {
+    width: 800px;
+    object-fit: cover;
+    border-radius: 1%;
+}
+
+@media (max-width: 1620px) {
+    .examinationText {
+        font-size: 16px;
+        letter-spacing: 2px;
+        width: 80%;
+    }
+}
+@media (max-width: 1070px) {
+    .examinationText {
+        font-size: 18px;
+        letter-spacing: 0px;
+        width: 90%;
+    }
+}
+@media (max-width: 991px) {
+    .examinationText {
+        font-size: 16px;
+    }
+    .examinationMedia {
+        width: 700px;
+    }
+    .examination {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+}
+@media (max-width: 767px) {
+    .examinationMedia {
+        width: 550px;
+    }
+    .examination {
+        letter-spacing: 0px;
+    }
+}
+@media (max-width: 575px) {
+    .examination {
+        font-size: 30px;
+    }
+    .examinationText {
+        font-size: 14px;
+    }
+    .examinationMedia {
+        width: 400px;
+    }
+}
+@media (max-width: 440px) {
+    .examination {
+        font-size: 30px;
+    }
+    .examinationMedia {
+        width: 340px;
+    }
+}
+@media (max-width: 360px) {
+    .examinationMedia {
+        width: 280px;
+    }
+}
+@media (max-width: 310px) {
+    .examinationMedia {
+        width: 260px;
+    }
+}
+@media (max-width: 1250px) and (max-height: 1800px) {
+    .poizonVideo {
+        height: 900px;
+    }
+}
+@media (max-width: 575px) and (max-height: 1800px) {
+    .poizonVideo {
+        height: 700px;
+    }
+}
+@media (max-width: 350px) and (max-height: 1800px) {
+    .poizonVideo {
+        height: 800px;
+    }
+}

@@ -1,0 +1,66 @@
+.poizonAccordion {
+    width: 100%;
+    background-color: white;
+    padding: 70px 0;
+}
+.questionAcc {
+    font-size: 40px;
+    padding-bottom: 70px;
+    letter-spacing: 10px;
+    color: black;
+}
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    border: solid 2px #09B3B6; 
+}
+.accordion-button {
+    font-size: 20px;
+    font-family: "Ruda", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    background-color: white;
+    transition: var(--bs-accordion-transition);
+}
+.accordion-body {
+    font-size: 16px;
+    font-family: "Ruda", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    .questionAcc {
+        font-size: 40px;
+        padding-bottom: 70px;
+        letter-spacing: 5px;
+    }
+}
+@media (max-width: 767px) {
+    .questionAcc {
+        letter-spacing: 0px;
+    }
+}
+@media (max-width: 575px) {
+    .questionAcc {
+        font-size: 30px;
+    }
+}
+@media (max-width: 310px) {
+    .questionAcc {
+        font-size: 28px;
+    }
+}

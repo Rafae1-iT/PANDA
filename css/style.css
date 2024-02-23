@@ -1,12 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
 nav {
     background-color: black;
     z-index: 1;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
 }
 .active-link-poizon {
     border-bottom: solid 5px #06DADD;
 }
 .nav-link {
-    font-family: 'Russo One', sans-serif;
     font-size: 20px;
     color: white;
     padding-left: 7px;
@@ -37,7 +50,6 @@ nav {
 .nav-link-main {
     text-decoration: none;
     color: white;
-    font-family: 'Russo One', sans-serif;
     font-size: 20px;
     line-height: 90px;
 }

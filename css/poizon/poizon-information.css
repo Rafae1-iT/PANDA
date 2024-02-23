@@ -1,0 +1,137 @@
+.poizon-information {
+    width: 100%;
+    background-color: black;
+    padding: 70px 0;
+}
+.poizon-question {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: white;
+}
+.poizon-color {
+    color: #06DADD;
+}
+.poizon-answer {
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.tickerPoizon {
+    margin-top: 60px;
+    overflow: hidden;
+    height: 40px;
+    background-color: #fff;
+}
+.tickerPoizon2 {
+    margin-top: 0;
+}
+.tickerPoizonTrack {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.tickerPoizonItem {
+    white-space: nowrap;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.poizonInformationBox {
+    font-size: 14px;
+    color: white;
+}
+.boxTitle {
+    font-size: 20px;
+    padding: 15px 0;
+}
+.buttonMarginBox {
+    margin-top: 70px;
+}
+
+@media (max-width: 991px) {
+    .tickerPoizonItem {
+        font-size: 16px;
+    }
+}
+@media (max-width: 767px) {
+    .tickerPoizonItem {
+        font-size: 12px;
+    }
+    .poizon-answer {
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+    .poizon-question {
+        font-size: 34px;
+        letter-spacing: 10px;
+    }
+}
+@media (max-width: 575px) {
+    .tickerPoizonTrack {
+        width: 95%;
+    }
+    .tickerPoizonItemPhone {
+        display: none;
+    }
+    .tickerPoizonItem {
+        font-size: 16px;
+    }
+    .boxTitleText {
+        font-size: 12px;
+    }
+    .poizonImgPhone {
+        display: none;
+    }
+    .boxTitle {
+        font-size: 30px;
+    }
+    .boxTitleText {
+        font-size: 18px;
+    }
+    .tickerPoizon2 {
+        margin-top: 20px;
+    }
+    .poizon-answer {
+        font-size: 14px;
+        letter-spacing: 5px;
+    }
+    .poizon-question {
+        font-size: 34px;
+        letter-spacing: 5px;
+    }
+}
+@media (max-width: 440px) {
+    .tickerPoizonItem {
+        font-size: 14px;
+    }
+        .poizon-answer {
+        letter-spacing: 2px;
+    }
+    .poizon-question {
+        letter-spacing: 0px;
+    }
+}
+@media (max-width: 360px) {
+    .tickerPoizonItem {
+        font-size: 12px;
+    }
+    .poizon-answer {
+        letter-spacing: 0px;
+    }
+    .poizon-question {
+        font-size: 30px;
+    }
+}
+@media (max-width: 310px) {
+    .poizon-question {
+        font-size: 26px;
+    }
+    .tickerPoizonItem {
+        font-size: 10px;
+    }
+}
