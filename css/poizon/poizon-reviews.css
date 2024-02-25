@@ -8,10 +8,12 @@
     height: 100%;
     object-fit: cover;
     z-index: 1;
+    overflow: hidden;
 }
 .reviewsBg img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .reviewsContainer {
     width: 100%;
@@ -19,7 +21,6 @@
     position: relative;
 }
 .reviewsHead {
-    position: absolute;
     color: white;
     font-size: 40px;
     letter-spacing: 10px;

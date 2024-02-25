@@ -1,17 +1,35 @@
 .poizon-main {
     height: 100vh;
     width: 100%;
-    /* background-image: url('file://E:/Web/Panda/img/poizon-bg.png'); */
-    background-image: url('/img/poizon/poizon-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
 }
 .poizon-main-content {
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
+.mainBg {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.mainBg img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.mainBg:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .65);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
 .pmc {
     width: 100%;
     position: absolute;
