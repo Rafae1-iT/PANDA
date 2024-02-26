@@ -38,6 +38,8 @@ nav {
     }
     .nav-phone {
         display: block;
+        position: absolute;
+        width: 100%;
     }
 }
 .nav-main {
