@@ -18,18 +18,6 @@
     height: 100%;
     object-fit: cover;
 }
-.mainBg:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-
-    background-color: rgba(0, 0, 0, .65);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
 
 .pmc {
     width: 100%;
