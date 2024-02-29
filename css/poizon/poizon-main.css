@@ -1,6 +1,7 @@
 .poizon-main {
     height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
 .poizon-main-content {
     width: 100%;
