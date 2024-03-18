@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ruda&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/poizon/poizon-main.css">
     <link rel="stylesheet" href="css/poizon/poizon-information.css">
     <link rel="stylesheet" href="css/poizon/poizon-examination.css">
@@ -49,6 +50,42 @@
                     <a class="nav-link-main" href="#"><span class="tmall">TMALL</span></a>
                 </div>
             </nav>
+            
+            <!-- Модальное окно -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">ЗАКАЗ</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                        </div>
+                        <div class="modal-body">
+                            Для того чтобы оформить заказ пришлите нам ссылку на товар, скриншот товара и необходимый размер для того, чтобы мы могли рассчитать стоимость. <br><br>
+                            Если у вас есть какие-то вопросы напишите нам в любом мессенджере мы с радостью ответим на все ваши вопросы и поможем вам в выборе.
+                        </div>
+                        <div class="modal-footer">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-3 text-center modalImgLogo">
+                                        <a href="https://wa.me/79242622510" target="_blank"><img src="img/poizon/whatsappLogo.png" alt=""></a>
+                                    </div>
+                                    <div class="col-3 text-center modalImgLogo">
+                                        <a href="https://t.me/Raffae11o" target="_blank"><img src="img/poizon/telegramLogo.png" alt=""></a>
+                                    </div>
+                                    <div class="col-3 text-center modalImgLogo">
+                                        <a href="https://ok.ru/profile/566206001737" target="_blank"><img src="img/poizon/okLogo.png" alt=""></a>
+                                    </div>
+                                    <div class="col-3 text-center modalImgLogo">
+                                        <a href="https://vk.com/69ikers" target="_blank"><img src="img/poizon/vkLogo.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Модальное окно -->
+
             <div class="mainBg">
                 <img src="img/poizon/mainBg.png" alt="">
             </div>
@@ -56,7 +93,7 @@
                 <div class="name-page">POIZON</div>
                 <div class="tagline">Вы выбираете - мы<span class="dnbr"><br></span> доставляем!</div>
                 <div class="button-order">
-                    <button class="">ЗАКАЗАТЬ</button>
+                    <button class="" data-bs-toggle="modal" data-bs-target="#exampleModal">ЗАКАЗАТЬ</button>
                 </div>
             </div>
         </div>
@@ -134,7 +171,7 @@
         </div>
 
         <div class="button-order buttonMarginBox">
-            <button class="">ЗАКАЗАТЬ</button>
+            <button class="" data-bs-toggle="modal" data-bs-target="#exampleModal">ЗАКАЗАТЬ</button>
         </div>
     </div>
 
@@ -239,7 +276,7 @@
             </div>
         </div>
         <div class="button-order-black buttonMarginBox">
-            <button class="">Скачать приложение</button>
+            <button class="downloadBtn">Скачать приложение</button>
         </div>
     </div>
 
@@ -296,7 +333,6 @@
                 </div>
             </div>
         </div>
-        
     </div>
 
     <div class="container-fluid poizonAccordion">
@@ -428,7 +464,7 @@
         <div class="container">
             <div class="row mobileInfo">
                 <div class="col-12 col-lg-7">
-                    <div class="ruda mobileText">Для скачивания приложения отсканируйте QR код<br>Либо на сайте <a class="ruda poizon-color">www.dewu.com</a></div>
+                    <div class="ruda mobileText">Для скачивания приложения отсканируйте QR код<br>Либо на сайте <a href="https://www.dewu.com/" target="_blank" class="ruda poizon-color">www.dewu.com</a></div>
                     <div class="qr">
                         <div class="androidIos">
                             <div class="imgAndroid">
@@ -445,11 +481,11 @@
                     </div>
                     <div class="forSystem ruda">Для Android:</div>
                     <div class="forSystemText ruda">Можно скачать по ссылке ниже приложение DEWU</div>
-                    <div class="forLink ruda"><a href="" class="ruda poizon-color">Ссылка на скачивание</a></div>
+                    <div class="forLink ruda"><a href="https://www.anxinapk.com/rj/12201303.html" target="_blank" class="ruda poizon-color">Ссылка на скачивание</a></div>
 
                     <div class="forSystem forSystemMargin ruda">Для iOS:</div>
                     <div class="forSystemText ruda">Можно скачать в App Store приложение DEWU </div>
-                    <div class="forLink ruda"><a href="" class="ruda poizon-color">Ссылка на скачивание</a></div>
+                    <div class="forLink ruda"><a href="https://apps.apple.com/ru/app/%E5%BE%97%E7%89%A9-%E6%9C%89%E6%AF%92%E7%9A%84%E8%BF%90%E5%8A%A8-%E6%BD%AE%E6%B5%81-%E5%A5%BD%E7%89%A9/id1012871328" target="_blank" class="ruda poizon-color">Ссылка на скачивание</a></div>
 
                     <div class="forSystem forSystemMargin ruda">При сканировании QR кода:</div>
                     <div class="forSystemText ruda">Установится китайский Play Market</div>
@@ -470,5 +506,7 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/poiozonButton.js"></script>
+    <script type="text/javascript" src="https://spikmi.org/Widget?Id=20134"></script>
 </body>
 </html>
