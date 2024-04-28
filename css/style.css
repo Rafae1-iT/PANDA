@@ -16,9 +16,6 @@ nav {
     padding-right: 0;
     padding-left: 0;
 }
-.active-link-poizon {
-    border-bottom: solid 5px #06DADD;
-}
 .nav-link {
     font-size: 20px;
     color: white;

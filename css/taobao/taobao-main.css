@@ -1,12 +1,12 @@
-.active-link-poizon {
-    border-bottom: solid 5px #06DADD;
+.active-link-taobao {
+    border-bottom: solid 5px #CC6206;
 }
-.poizon-main {
+.taobao-main {
     height: 100vh;
     width: 100%;
     overflow: hidden;
 }
-.poizon-main-content {
+.taobao-main-content {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -22,7 +22,7 @@
     object-fit: cover;
 }
 
-.pmc {
+.tmc {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -34,7 +34,7 @@
     font-family: 'Russo One', sans-serif;
     font-size: 64px;
     letter-spacing: 100px;
-    color: #06DADD;
+    color: #CC6206;
 }
 
 .tagline {
@@ -52,7 +52,7 @@
     width: 300px;
     height: 50px;
     border-radius: 40px;
-    border: solid 5px #06DADD;
+    border: solid 5px #CC6206;
     text-align: center;
 }
 
@@ -190,7 +190,7 @@
 }
 
 @media (max-height: 750px) {
-    .pmc {
+    .tmc {
         top: 60%;
     }
 }
@@ -218,7 +218,7 @@
 }
 
 @media (max-height: 360px) {
-    .pmc {
+    .tmc {
         top: 65%;
     }
     .name-page {
