@@ -1,0 +1,16 @@
+.instructionsContainer {
+    width: 100%;
+}
+.instructionsHead1 {
+    color: black;
+    padding-top: 120px;
+    font-size: 28px;
+}
+.instructionsHead2 {
+    color: black;
+    margin-top: 10px;
+    font-size: 26px;
+}
+.colorTaobao {
+    color: #EC751F;
+}

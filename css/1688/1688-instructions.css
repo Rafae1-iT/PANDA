@@ -1,0 +1,104 @@
+.instructionsHead {
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: white;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.instructionsText1 {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.instructionsText2 {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.stepNumber {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.steps {
+    margin-top: 45px;
+}
+.stepText {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.buttonOrder {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    border: solid 5px #FF4001;
+    text-align: center;
+}
+.buttonOrder button {
+    background: none;
+    height: 40px;
+    color: white;
+    border: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+
+
+@media (max-width: 1400px) {
+    .stepMargin {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 1100px) {
+    .instructionsText1 {
+        font-size: 20px;
+    }
+    .instructionsText2 {
+        font-size: 16px;
+    }
+    .instructionsHead {
+        letter-spacing: 5px;
+    }
+}
+@media (max-width: 767px) {
+    .instructionsHead {
+        font-size: 34px;
+        letter-spacing: 0px;
+    }
+}
+@media (max-width: 580px) {
+    .instructionsHead {
+        font-size: 28px;
+    }
+}
+@media (max-width: 400px) {
+    .instructionsHead {
+        font-size: 24px;
+    }
+    .instructionsText1 {
+        font-size: 18px;
+    }
+    .instructionsText2 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 350px) {
+    .instructionsHead {
+        font-size: 24px;
+    }
+}
+@media (max-width: 350px) {
+    .instructionsHead {
+        font-size: 22px;
+    }
+    .stepText {
+        font-size: 15px;
+    }
+}
