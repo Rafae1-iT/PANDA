@@ -1,0 +1,30 @@
+.cardHeader {
+    font-size: 24px;
+}
+.cardHeaderMargin {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.shopName {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.stepNumber {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.stepText {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.shopName1 {
+    color: #EC751F;
+}
+.shopName2 {
+    color: #FF0000;
+}
+.shopName3 {
+    color: #FF0000;
+}
